@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="fragments.yesterdayFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView1Y"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-2281923791402266/6070207490"></com.google.android.gms.ads.AdView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView2Y"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-2281923791402266/6070207490"></com.google.android.gms.ads.AdView>
+
+
+
+
+
+
+
+</RelativeLayout>

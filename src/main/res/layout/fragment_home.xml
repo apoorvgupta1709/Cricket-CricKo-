@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/adidFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.homeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleviewidH"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView1H"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-2281923791402266/6070207490"></com.google.android.gms.ads.AdView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView2H"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="8dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-2281923791402266/6070207490"></com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
