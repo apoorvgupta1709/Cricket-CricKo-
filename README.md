@@ -8,5 +8,5 @@ A simple  Android Application made for Cricketing News
 
 3:FIREBASE 
 
-[I'm an inline-style link](https://www.google.com)
+[Do Insatll](https://play.google.com/store/apps/details?id=com.harks.cricket)
 
