@@ -7,3 +7,5 @@ A simple  Android Application made for Cricketing News
 2:Basic concepts of android 
 
 3:FIREBASE 
+
+# Do Install > https://play.google.com/store/apps/details?id=com.harks.cricket
