@@ -8,4 +8,6 @@ A simple  Android Application made for Cricketing News
 
 3:FIREBASE 
 
+[link text itself]: http://www.reddit.com
+[link] : bkhkb
 
